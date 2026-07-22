@@ -29,7 +29,7 @@ app.add_middleware(
 @app.get("/")
 def home():
     return {
-        "message": "Inventory Service is running"
+        "message": "Inventory Service is running V1"
     }
 
 
